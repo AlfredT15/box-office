@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from 'react';
-import { ADD, REMOVE } from '../constats';
+import { ADD, REMOVE } from './constants';
 
 function usePersistedReducer(reducer, initialState, key) {
   const [state, dispatch] = useReducer(reducer, initialState, initial => {

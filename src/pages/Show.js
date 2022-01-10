@@ -8,7 +8,7 @@ import Seasons from '../components/show/Seasons';
 import ShowMainData from '../components/show/ShowMainData';
 import { apiGet } from '../misc/config';
 import { InfoBlock, ShowPageWrapper } from './Show.styled';
-import { FETCH_SUCCESS, FETCH_FAILED } from '../constats';
+import { FETCH_SUCCESS, FETCH_FAILED } from '../misc/constants';
 
 const reducer = (prevState, action) => {
   switch (action.type) {
